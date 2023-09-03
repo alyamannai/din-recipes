@@ -10,3 +10,7 @@ h1{
 .logo{
     text-align: center;
 }
+
+body{
+    background-image: linear-gradient(to right, #DECBA4, #3E5151);
+}
