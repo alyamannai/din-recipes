@@ -1,3 +1,8 @@
+*{
+    box-sizing: border-box;
+}
+
+
 h1 {
     color: white;
     background-color: black;
@@ -9,93 +14,31 @@ h2{
     
 }
 
+#logo{
+    text-align: center;
+    margin: 50px;
+}
+
 body{
     background-image: linear-gradient(to right, #DECBA4, #3E5151);
 }
 
+.center{
+    text-align: center;
+}
 
-.frame{
-    width: 500px;
-    height: 400px;
+.list {
+    display: inline-block;
+    background-color: #3E5151;
     border: 3px solid black;
-    background: black;
-    margin: auto;
-    padding: 15px 5px;
+    padding: 50px;
+    width: 33%; /* Set the width to 100% to make it span the entire available width */
+    text-align: center; /* Center-align the anchor elements within .list */
 }
 
-#logo{
-    width: 550px;
-    height: auto;
-
+.pic {
+    height: 150px;
+    width: auto; /* Allow the width to adjust based on the image's aspect ratio */
+    margin: 0 10px; /* Add a margin to create space between the images */
 }
 
-.frame2{
-    width: 50px;
-    height: 40px;
-    border: 3px solid black;
-    background: black;
-    margin: auto;
-    padding: 15px 5px;
-    float:left
-}
-
-
-#burger{
-    width: auto;
-    height: 250px;
-}
-
-
-.frame3{
-    width: 316px;
-    height: 250px;
-    border: 3px solid black;
-    background: black;
-    margin: auto;
-    padding: 15px 5px;
-    float: right;
-    
-}
-
-.frame4{
-    width: 316px;
-    height: 250px;
-    border: 3px solid black;
-    background: black;
-    margin: auto;
-    padding: 15px 5px;
-    
-    
-}
-
-#pic2{
-    width:300px;
-    height:150px;
-}
-
-.pic{
-    width:300px;
-    height: auto
-    ;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-#hplogo{
-   
-}
